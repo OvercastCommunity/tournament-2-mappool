@@ -1,7 +1,7 @@
 <map proto="1.4.0">
 <time overtime="1m" max-overtime="15m">12m</time>
 <name>Discount Fortress</name>
-<version>1.1.2</version>
+<version>1.1.3</version>
 <objective>Capture the enemy team's flag.</objective>
 <gamemode>ctf</gamemode>
 <authors>
@@ -24,10 +24,10 @@
         <clear/>
         <item slot="0" unbreakable="true" material="stone sword"/>
         <item slot="1" unbreakable="true" material="bow"/>
-        <item slot="2" amount="4" material="leaves"/>
-        <item slot="3" unbreakable="true" material="shears"/>
-        <item slot="4" amount="64" material="golden carrot"/>
-        <item slot="5" material="golden apple"/>
+        <item slot="3" amount="4" material="leaves"/>
+        <item slot="4" unbreakable="true" material="shears"/>
+        <item slot="5" amount="64" material="golden carrot"/>
+        <item slot="2" material="golden apple"/>
         <item slot="8" amount="32" material="arrow"/>
         <effect duration="5s">instant_health</effect>
     </kit>
@@ -68,7 +68,7 @@
         </regions>
     </default>
 </spawns>
-<flags flag-proximity-metric="none">
+<flags flag-proximity-metric="none" net-proximity-metric="none">
     <flag id="red-flag" name="Red Flag" owner="red-team">
         <post recover-time="20s" respawn-time="15s" pickup-filter="only-blue">14.5,10,-429.5</post>
     </flag>
