@@ -2,7 +2,7 @@
 <map proto="1.4.0">
 <time overtime="1m" max-overtime="15m">12m</time>
 <name>Nartica</name>
-<version>1.5.1</version>
+<version>1.5.2</version>
 <objective>Capture both of the enemy's flags.</objective>
 <authors>
     <author uuid="07fa10c6-f564-4630-861e-fe134ae27527"/> <!-- Yoyo_ -->
@@ -93,7 +93,7 @@
     <tool>iron sword</tool>
     <tool>bow</tool>
 </toolrepair>
-<flags flag-proximity-metric="none">
+<flags flag-proximity-metric="none" net-proximity-metric="none">
     <flag id="north-red-flag" name="North Red Flag" owner="red-team" pickup-kit="red-flag-kit" drop-kit="reset-kit">
         <post pickup-filter="blue-only" recover-time="15s" respawn-time="5s">-29.5,10,-36.5</post>
     </flag>
