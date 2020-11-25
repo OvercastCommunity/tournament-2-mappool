@@ -1,6 +1,6 @@
 <map proto="1.4.3">
 <name>Smoke KOTH</name>
-<version>1.0.4</version>
+<version>1.0.5</version>
 <objective>Be the first team to gain 2500 points.</objective>
 <gamemode>koth</gamemode>
 <authors>
@@ -21,8 +21,8 @@
         <item slot="1" unbreakable="true" locked="true" material="bow">
             <enchantment>infinity</enchantment>
         </item>
-        <item slot="2" amount="32" material="cooked beef"/>
-        <item slot="3" amount="1">golden apple</item>
+        <item slot="3" amount="32" material="cooked beef"/>
+        <item slot="2" amount="1">golden apple</item>
         <item slot="28" material="arrow"/>
         <leggings unbreakable="true" locked="true" material="iron leggings">
             <enchantment>projectile_protection</enchantment>
